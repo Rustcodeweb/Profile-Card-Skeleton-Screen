@@ -1,0 +1,41 @@
+body {
+    background-color: #d1d1d1;
+
+}
+
+.height-vh{
+  height: 100vh;
+}
+
+.card-container {
+    border: none;
+    width: 250px;
+    border-radius: 0px !important;
+    border:  1px solid lightgrey;
+    overflow: hidden;
+}
+
+.inner-card {
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(lightgrey 100%, transparent 0);
+}
+
+.card-upper-container {
+    height: 200px;
+    background-color: #eee
+}
+
+.card-lower-container {
+    height: 130px
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite
+}
+
+@keyframes pulse {
+    50% {
+        opacity: 0.4;
+    }
+}
